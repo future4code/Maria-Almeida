@@ -1,0 +1,118 @@
+#menu {
+    display: flex;
+    background-color:#6B705C;
+    margin:0;
+}
+
+li {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#menu li:first-child {
+    margin-right: auto;
+}
+
+.div1 {
+    display: flex;
+    height: 100vh;
+    background-color: #FFE8D6;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    margin:auto;
+    text-align: center;
+}
+
+#button {
+   margin: auto; 
+   text-align: center;
+}
+
+
+.img1{
+    width: 20vw;
+    height: 60vh;
+    padding-left: 50px;
+    padding-top: 15 px;
+    padding-bottom: 15 px;
+    vertical-align: middle;
+}
+
+.img2{
+    width: 20vw;
+    height: 40vh;
+    padding-left: 50px;
+    padding-top: 15 px;
+    padding-bottom: 15 px;
+    vertical-align: middle;
+}
+
+.img3{
+    width: 20vw;
+    height: 60vh;
+    padding-left: 50px;
+    padding-top: 15 px;
+    padding-bottom: 15 px;
+    vertical-align: middle;
+}
+
+.img4{
+    width: 20vw;
+    height: 40vh;
+    padding-left: 50px;
+    padding-top: 15 px;
+    padding-bottom: 15 px;
+    vertical-align: middle;
+}
+
+.img5{
+    width: 20vw;
+    height: 60vh;
+    padding-left: 50px;
+    padding-top: 15 px;
+    padding-bottom: 15 px;
+    vertical-align: middle;
+}
+
+.table {
+    align: left;
+}
+
+.div2{
+    background-color: #A5A58D;
+}
+
+.div3{
+    background-color: #DDBEA9;  
+}
+
+.div4{
+    background-color: #B7B7A4;
+}
+
+.div5{
+    background-color: #CB997E;
+}
+
+.div6{
+    background-color: #DDBEA9;  
+}
+
+.footer{
+    display: flex;
+    background-color:#6B705C;
+    left: 50%; 
+    align-items: center;
+}
+
+
