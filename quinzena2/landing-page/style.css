@@ -24,6 +24,7 @@ header {
     width: 100%;
     align-items: center;
     justify-content: space-around;
+    position: relative;
 }
 
 nav li {
@@ -43,12 +44,21 @@ nav a:hover{
 }
 
 /*Corpo do site - Página inicial */
-#pagina-inicial{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    row-gap: 10px;
-    column-gap: 10px;
-    margin: 10px;
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    border: 3px solid #142434;
+    display: flex;
+    margin-top: 10px;
+}
+
+.container-imagens {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: space-around;  
 }
 
 main section{
@@ -58,7 +68,6 @@ main section{
 
 #resumo {
     display: block;
-    flex-direction: row;
     justify-content: center;
 }
 
@@ -67,16 +76,35 @@ body {
     background-color:#FFF5EE;
 }
 
-#predio {
+#estudante {
     height: 30vh;
     width: 20vw;
-    align-self: center;
 }
 
 #grupo {
     height: 30vh;
     width: 20vw;
-    align-self: center;
+}
+
+#formatura {
+    height: 30vh;
+    width: 20vw;
+}
+
+/*Corpo do site - Moradias*/
+.container-moradias {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px; 
+    justify-content: space-around;
+}
+
+/*Corpo do site - Contato*/
+.container-time {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px; 
+    justify-content: space-around;
 }
 
 /* Rodapé */
@@ -85,16 +113,15 @@ body {
 }
 
 footer{
-    display: flex;
     background-color:#142434;
     color: #68D2CB;
     justify-content: space-around;
     align-items: center;
-    position:fixed;
     height: 14vh;
     width: 100%;
     padding: 0 10px;
     bottom: 0;
+    position:fixed;
 }
 
 @media screen and (max-width:414px){
