@@ -19,8 +19,11 @@
 header {
     background-color:#142434;
     color: #68D2CB;
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    display: flex;
+    top:0;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
 }
 
 nav li {
@@ -40,9 +43,12 @@ nav a:hover{
 }
 
 /*Corpo do site - Página inicial */
-main{
-    display: flex;
-    min-height: 70vh;
+#pagina-inicial{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+    margin: 10px;
 }
 
 main section{
@@ -52,13 +58,25 @@ main section{
 
 #resumo {
     display: block;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
 }
 
 body {
     font-family:'Kiwi Maru', serif;
-    margin:0;
+    background-color:#FFF5EE;
+}
+
+#predio {
+    height: 30vh;
+    width: 20vw;
+    align-self: center;
+}
+
+#grupo {
+    height: 30vh;
+    width: 20vw;
+    align-self: center;
 }
 
 /* Rodapé */
@@ -70,13 +88,12 @@ footer{
     display: flex;
     background-color:#142434;
     color: #68D2CB;
-    bottom:0;
     justify-content: space-around;
     align-items: center;
+    position:fixed;
     height: 14vh;
     width: 100%;
     padding: 0 10px;
-    position: fixed;
     bottom: 0;
 }
 
