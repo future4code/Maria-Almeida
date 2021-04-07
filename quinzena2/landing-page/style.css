@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap');
+
+* {
+    margin:0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo1 {
+    height: 20vh;
+    margin-right: 12vh;
+}
+
+header {
+    background-color:#142434;
+    color: #68D2CB;
+    display: flex;
+    top:0;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+nav li {
+    display: inline;
+    padding: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #68D2CB;
+    font-family:'Kiwi Maru', serif;
+    font-size: 20px;
+}
+
+nav a:hover{
+    color: #848C9C;
+}
+
+/*Corpo do site - Página inicial */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    border: 3px solid #142434;
+    display: flex;
+    margin-top: 10px;
+}
+
+.container-imagens {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: space-around;  
+}
+
+main section{
+    margin: 10px;
+    padding: 10px;
+}
+
+#resumo {
+    display: block;
+    justify-content: center;
+}
+
+body {
+    font-family:'Kiwi Maru', serif;
+    background-color:#FFF5EE;
+}
+
+#estudante {
+    height: 30vh;
+    width: 20vw;
+}
+
+#grupo {
+    height: 30vh;
+    width: 20vw;
+}
+
+#formatura {
+    height: 30vh;
+    width: 20vw;
+}
+
+/*Corpo do site - Moradias*/
+.container-moradias {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px; 
+    justify-content: space-around;
+}
+
+/*Corpo do site - Contato*/
+.container-time {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px; 
+    justify-content: space-around;
+}
+
+/* Rodapé */
+#redes-sociais {
+    height: 10vh;
+}
+
+footer{
+    background-color:#142434;
+    color: #68D2CB;
+    justify-content: space-around;
+    align-items: center;
+    height: 14vh;
+    width: 100%;
+    padding: 0 10px;
+    bottom: 0;
+    position:fixed;
+}
+
+@media screen and (max-width:414px){
+    .media {
+        display: flex;
+        flex-direction: column;
+    }
+
+    body{
+        padding-bottom: 30vh;
+    }
+
+    footer{
+        min-height: 25vh;
+    }
+}
